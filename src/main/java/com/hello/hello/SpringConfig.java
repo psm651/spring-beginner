@@ -35,6 +35,11 @@ public class SpringConfig {
         return new MemberService(memberRepository);
     }
 
+//    @Bean // AOP를 명시하는게 좋지만 여기선 @Component 사용
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
+
     //@Bean
     //public MemberRepository memberRepository(){
         //return new MemoryMemberRepository();
